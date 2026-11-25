@@ -1,6 +1,6 @@
 ## Tutka 1.1.3 Build Notes
 
-Tutka 1.1.3 is now live at https://github.com/findsp/tutka with full source tree restored.
+Tutka 1.1.3 is now live at https://github.com/FIN-DSP/tutka with full source tree restored.
 
 ### Fixed Deprecated Qt Issues
 
@@ -26,7 +26,7 @@ Tutka 1.1.3 is now live at https://github.com/findsp/tutka with full source tree
 sudo apt install qtbase5-dev qt5-qmake libqt5sql5-sqlite build-essential
 
 # Clone & build
-git clone https://github.com/findsp/tutka.git
+git clone https://github.com/FIN-DSP/tutka.git
 cd tutka
 qmake tutka.pro
 make -j$(nproc)
