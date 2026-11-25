@@ -13,7 +13,7 @@
 
 ## 🚀 Ready-to-run Binary (Recommended)
 ```bash
-wget https://github.com/findsp/tutka/releases/download/v1.1.3/tutka
+wget https://github.com/FIN-DSP/tutka/releases/download/v1.1.3/tutka
 chmod +x tutka
 ./tutka
 ```
@@ -23,7 +23,7 @@ chmod +x tutka
 ## 🛠️ Build from Source
 ```bash
 sudo apt install qtbase5-dev qt5-qmake libqt5sql5-sqlite build-essential
-git clone https://github.com/findsp/tutka.git
+git clone https://github.com/FIN-DSP/tutka.git
 cd tutka
 qmake tutka.pro && make -j$(nproc)
 ./tutka
@@ -36,7 +36,7 @@ sudo apt install qt5-default libasound2-dev checkinstall
 # make install → checkinstall → tutka_1.1.3-1_amd64.deb
 ```
 
-![Tutka Screenshot](https://raw.githubusercontent.com/findsp/tutka/main/images/tutka_screenshot.png)
+![Tutka Screenshot](https://raw.githubusercontent.com/FIN-DSP/tutka/main/images/tutka_screenshot.png)
 
 **Key fixes:**
 - ✅ **Added BINARY install**  
